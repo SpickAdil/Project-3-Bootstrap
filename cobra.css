@@ -1,0 +1,58 @@
+body{
+    padding: 5px;
+}
+.container{
+    border: 2px  black;
+    display: flex;
+    justify-content: center;
+}
+hr.thick-line {
+    height: 5px;
+    /* Adjust this value for desired thickness */
+    background-color: (255, 255, 255) (245, 5, 5, 0.849);
+    /* Set a color for visibility */
+    border: none;
+    /* Remove default border for a clean look */
+}
+.main-d{
+    display: flex;
+}
+
+hr {
+    background-color: white;
+}
+.img{
+    width: 300px;
+        border: 2px white;
+}
+.ftext{
+    width: 400px;
+    border: 2px  white;
+}
+p{
+    font-size: 28px;
+    color: white;
+}
+.header{
+    height: 30px;
+    width: 1914px;
+    background-color: aliceblue;
+    transform: translateY(-10px) translateX(-10px);
+}
+.Submit{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    animation: Submit 2s infinite;
+}
+@keyframes Submit{
+    0%{
+        border-radius: 30px;
+    }
+    100%{
+        border-radius: 30px;
+    }
+}
+.Submit{
+    font-size: xxx-large;
+}
